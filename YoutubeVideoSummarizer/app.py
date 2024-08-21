@@ -34,9 +34,7 @@ if youtube_url:
         )
         
         docs = loader.load()
-        
-        # Display video title
-        st.subheader(f"Video Title: {docs[1].metadata['title']}")
+
         
         # Initialize LLM
         llm = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True,
