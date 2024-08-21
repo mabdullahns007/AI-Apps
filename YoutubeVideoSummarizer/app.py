@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains.summarize import load_summarize_chain
 import os
 
-os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCqMCBk2k1-pbACD3grHQIpiK7NKiDEx4A"
 
 st.title("YouTube Video Summarizer")
 
