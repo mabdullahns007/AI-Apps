@@ -19,7 +19,7 @@ summary_types = ["Brief Summary", "Detailed Summary", "In-Depth Analysis"]
 selected_summary_type = st.selectbox("Select summary type:", summary_types)
 
 # Language selection
-languages = ["English", "Spanish", "French", "German", "Italian", "Portuguese", "Russian", "Japanese", "Chinese", "Korean", "Urdu" , "Hindi" ]
+languages = ["English", "Spanish", "French", "German", "Italian", "Portuguese", "Russian", "Japanese", "Chinese", "Korean", "Urdu", "Hindi" ]
 selected_language = st.selectbox("Select summary language:", languages)
 
 
@@ -36,7 +36,7 @@ if youtube_url:
         docs = loader.load()
         
         # Display video title
-        st.subheader(f"Video Title: {docs[0].metadata['title']}")
+        st.subheader(f"Video Title: {docs[1].metadata['title']}")
         
         # Initialize LLM
         llm = ChatGoogleGenerativeAI(model="gemini-pro", convert_system_message_to_human=True,
