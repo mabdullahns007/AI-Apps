@@ -1,7 +1,0 @@
-streamlit 
-langchain 
-langchain-community 
-langchain-google-genai 
-google-generativeai 
-pytube3
-youtube-transcript-api
