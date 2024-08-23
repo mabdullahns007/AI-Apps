@@ -30,6 +30,7 @@ if youtube_url:
             add_video_info=True,
             transcript_format=TranscriptFormat.CHUNKS,
             chunk_size_seconds=180,
+            translation="en"
         )
         
         docs = loader.load()
