@@ -30,7 +30,8 @@ if youtube_url:
             add_video_info=True,
             transcript_format=TranscriptFormat.CHUNKS,
             chunk_size_seconds=180,
-
+            language=["en", "hi"],
+            translation=["en"]
         )
         
         docs = loader.load()
@@ -47,7 +48,7 @@ if youtube_url:
         #STUFF
         stuff_prompt = """
 
-        Write a brief summary of the following text with the following guidelines:
+        Write a brief summary of the following text in {language} with the following guidelines:
 
         Introduction: Begin with a brief introduction that outlines the main topic.
         Key Points: List the key points. Use bullet points for clarity.
