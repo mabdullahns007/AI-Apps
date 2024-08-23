@@ -16,4 +16,4 @@ The **YouTube Video Summarizer** is a powerful AI tool that provides quick and a
 
 ## Link to the Tool
 
-[YouTube Video Summarizer](https://ai-apps-mhrnzhp5zs6udfpniehgdb.streamlit.app/)
+[YouTube Video Summarizer](https://youtubevideosummarizerbymabdullahns007.streamlit.app/)
