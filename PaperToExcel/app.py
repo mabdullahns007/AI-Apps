@@ -103,7 +103,7 @@ overall_chain = SequentialChain(
 # Streamlit app
 st.title("Paper To Excel")
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpeg","png"])
+uploaded_file = st.file_uploader("Choose an image...", type="jpeg")
 
 def create_excel_file(data):
     # Convert string representation of list to actual list
